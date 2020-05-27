@@ -21,9 +21,9 @@ const Transaction = mongoose.model("Transaction", transactionSchema);
 
 module.exports = Transaction;
 
-app.post("/submit:id",({body}, res) =>{
- id=params.id
-db.Transaction.create(body)
-.then(({_id}) => db.Households
-.findOneAndUpdate9({_id=id}, {$push: {transactions: _id}},{new:true}))
-})
+// app.post("/submit:id",({body}, res) =>{
+//  id=params.id
+// db.Transaction.create(body)
+// .then(({_id}) => db.Households
+// .findOneAndUpdate9({_id=id}, {$push: {transactions: _id}},{new:true}))
+// })
